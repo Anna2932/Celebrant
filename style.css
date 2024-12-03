@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
 }
-
 h1
 {
 
@@ -16,9 +15,7 @@ font-size: 80px;
 line-height: 92px;
 
 color: #AA00FF;
-
-opacity: 1;
-border: 1px solid #3300FF;
+text-shadow: #0000CD 0px 0px 5px, #0000CD 0px 0px 10px, #0000CD 0px 0px 3px, #0000CD 0px 0px 5px, #0000CD 0px 0px 7px, #0000CD 0px 0px 10px, #0000CD 0px 0px 10px, #0000CD 0px 0px 18px;
 height: fit-content;
 }
 
@@ -54,14 +51,26 @@ top: 8px;
 
 .online_shopping  
 {
-width: 588px;
-height: 544px;
+width: 35%;
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
 header {
   display: flex;
+  padding: 5px 10px 50px 60px;
 }
 .btn
 {
   width: 50px;
   height: 50px;
+  margin-left: 10px;
+}
+.header_menu
+{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+
 }
